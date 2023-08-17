@@ -7,6 +7,7 @@ plugins {
 group = 'com.example'
 version = '0.0.1-SNAPSHOT'
 
+// this is the place to set required Java version
 java {
     sourceCompatibility = '19'
 }
@@ -21,6 +22,7 @@ repositories {
     mavenCentral()
 }
 
+// this is where maven packages should be added
 dependencies {
     implementation 'org.springframework.boot:spring-boot-starter'
     implementation 'org.springframework.boot:spring-boot-starter-web'
